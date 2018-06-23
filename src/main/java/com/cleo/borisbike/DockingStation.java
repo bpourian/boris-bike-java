@@ -2,8 +2,16 @@ package com.cleo.borisbike;
 
 public class DockingStation {
 
-    public Bike releaseBike()
+    Object bikeList = null;
+
+    public Object releaseBike()
     {
-        return new Bike();
+        return this.bikeList;
+    }
+
+    public String dockYourBike(Bike bikeDocked)
+    {
+        this.bikeList = bikeDocked;
+        return "Bike Accepted";
     }
 }
