@@ -12,7 +12,7 @@ public class DockingStationTest
     private DockingStation dock = null;
 
     @BeforeEach
-    public void init()
+    void init()
     {
         dock = new DockingStation();
     }
