@@ -23,4 +23,9 @@ public class DockingStationTest
         assertThat(dock, instanceOf(DockingStation.class));
     }
 
+    @Test
+    void DockingStationToReleaseBike()
+    {
+        assertThat(dock.releaseBike(), instanceOf(Bike.class));
+    }
 }
