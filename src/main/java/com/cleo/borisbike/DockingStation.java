@@ -1,6 +1,7 @@
 package com.cleo.borisbike;
 
-public class DockingStation {
+public class DockingStation
+{
 
     Object bikeList = null;
 
