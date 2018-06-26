@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a37856e-79e7-48aa-be06-5587446aa8d7" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cleo/borisbike/DockingStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cleo/borisbike/DockingStation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cleo/borisbike/DockingStation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cleo/borisbike/DockingStation.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,29 +14,27 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4590846">
+    <splitter split-orientation="horizontal" split-proportion="0.44660193">
       <split-first>
         <leaf>
-          <file leaf-file-name="DockingStation.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="DockingStation.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/borisbike/DockingStation.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="108">
-                  <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+                <state relative-caret-position="394">
+                  <caret line="22" column="67" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="67" />
                   <folding>
                     <element signature="e#195#196#0" expanded="true" />
                     <element signature="e#242#243#0" expanded="true" />
-                    <element signature="e#296#297#0" expanded="true" />
-                    <element signature="e#357#358#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Bike.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Bike.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/borisbike/Bike.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="72">
-                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+                <state relative-caret-position="396">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <element signature="e#108#109#0" expanded="true" />
                     <element signature="e#146#147#0" expanded="true" />
@@ -58,11 +54,10 @@
           <file leaf-file-name="DockingStationTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="893">
-                  <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+                <state relative-caret-position="404">
+                  <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="method#init#0;class#DockingStationTest#0" />
                     <element signature="e#968#969#0" expanded="true" />
                     <element signature="e#1043#1044#0" expanded="true" />
                   </folding>
@@ -120,8 +115,8 @@
         <option value="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/AppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cleo/borisbike/Bike.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/BikeTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cleo/borisbike/DockingStation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java" />
       </list>
     </option>
   </component>
@@ -324,7 +319,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DockingStationTest.DockingStationToThrowsErrorIfMoreThanTwentyBikesAdded" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DockingStationTest.DockingStationToThrowRunTimeExceptionWhenBikeNotWorking" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="borisbike-java" />
       <extension name="coverage">
         <pattern>
@@ -336,7 +331,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.cleo.borisbike" />
       <option name="MAIN_CLASS_NAME" value="com.cleo.borisbike.DockingStationTest" />
-      <option name="METHOD_NAME" value="DockingStationToThrowsErrorIfMoreThanTwentyBikesAdded" />
+      <option name="METHOD_NAME" value="DockingStationToThrowRunTimeExceptionWhenBikeNotWorking" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -387,18 +382,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.DockingStationTest" />
-      <item itemvalue="JUnit.DockingStationTest.DockingStationToThrowsErrorIfMoreThanTwentyBikesAdded" />
       <item itemvalue="JUnit.DockingStationTest.DockingStationToReleaseBike" />
       <item itemvalue="JUnit.BikeTest" />
       <item itemvalue="JUnit.DockingStationTest.DockingStationCreatesNewInstance" />
+      <item itemvalue="JUnit.DockingStationTest.DockingStationToThrowRunTimeExceptionWhenBikeNotWorking" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.DockingStationTest" />
+        <item itemvalue="JUnit.DockingStationTest.DockingStationToThrowRunTimeExceptionWhenBikeNotWorking" />
+        <item itemvalue="JUnit.DockingStationTest.DockingStationToReleaseBike" />
         <item itemvalue="JUnit.DockingStationTest.DockingStationCreatesNewInstance" />
         <item itemvalue="JUnit.BikeTest" />
-        <item itemvalue="JUnit.DockingStationTest.DockingStationToReleaseBike" />
-        <item itemvalue="JUnit.DockingStationTest.DockingStationToThrowsErrorIfMoreThanTwentyBikesAdded" />
       </list>
     </recent_temporary>
   </component>
@@ -416,35 +411,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.25 at 23h 52m 49s.xml">
+    <history-entry file="DockingStationTest_DockingStationToThrowRunTimeExceptionWhenBikeNotWorking - 2018.06.26 at 06h 38m 33s.xml">
+      <configuration name="DockingStationTest.DockingStationToThrowRunTimeExceptionWhenBikeNotWorking" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.26 at 06h 38m 51s.xml">
       <configuration name="DockingStationTest.DockingStationToReleaseBike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.25 at 23h 53m 05s.xml">
+    <history-entry file="DockingStationTest - 2018.06.26 at 06h 39m 23s.xml">
+      <configuration name="DockingStationTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.26 at 06h 42m 57s.xml">
       <configuration name="DockingStationTest.DockingStationToReleaseBike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.25 at 23h 55m 37s.xml">
+    <history-entry file="DockingStationTest - 2018.06.26 at 06h 44m 54s.xml">
       <configuration name="DockingStationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BikeTest - 2018.06.25 at 23h 55m 44s.xml">
-      <configuration name="BikeTest" configurationId="JUnit" />
+    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.26 at 06h 45m 13s.xml">
+      <configuration name="DockingStationTest.DockingStationToReleaseBike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest_DockingStationCreatesNewInstance - 2018.06.26 at 00h 02m 58s.xml">
-      <configuration name="DockingStationTest.DockingStationCreatesNewInstance" configurationId="JUnit" />
+    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.26 at 06h 46m 04s.xml">
+      <configuration name="DockingStationTest.DockingStationToReleaseBike" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.26 at 00h 03m 10s.xml">
+    <history-entry file="DockingStationTest - 2018.06.26 at 06h 48m 04s.xml">
       <configuration name="DockingStationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.26 at 05h 54m 04s.xml">
+    <history-entry file="DockingStationTest - 2018.06.26 at 06h 48m 32s.xml">
       <configuration name="DockingStationTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.26 at 05h 55m 54s.xml">
-      <configuration name="DockingStationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.26 at 05h 56m 44s.xml">
-      <configuration name="DockingStationTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DockingStationTest - 2018.06.26 at 06h 03m 10s.xml">
-      <configuration name="DockingStationTest" configurationId="JUnit" />
+    <history-entry file="DockingStationTest_DockingStationToReleaseBike - 2018.06.26 at 06h 53m 34s.xml">
+      <configuration name="DockingStationTest.DockingStationToReleaseBike" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -484,7 +479,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -553,32 +548,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/borisbike/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-          <folding>
-            <element signature="e#108#109#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#107#108#0" expanded="true" />
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0.jar!/org/junit/jupiter/api/function/Executable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0-sources.jar!/org/junit/jupiter/api/function/Executable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -594,28 +567,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.1.0/junit-jupiter-api-5.1.0-sources.jar!/org/junit/jupiter/api/function/Executable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#init#0;class#DockingStationTest#0" />
-            <element signature="e#968#969#0" expanded="true" />
-            <element signature="e#1043#1044#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="540">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/borisbike/DockingStation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        <state relative-caret-position="394">
+          <caret line="22" column="67" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="67" />
           <folding>
             <element signature="e#195#196#0" expanded="true" />
             <element signature="e#242#243#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/cleo/borisbike/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/cleo/borisbike/DockingStationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#968#969#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
           </folding>
         </state>
       </provider>

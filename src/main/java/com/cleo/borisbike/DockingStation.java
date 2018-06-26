@@ -15,7 +15,13 @@ public class DockingStation
 
     public Object releaseBike()
     {
-        return this.bikeList.get(bikeList.size() - 1);
+        Bike bike = this.bikeList.get(bikeList.size() - 1);
+
+        if (bike.getWorking() == true) {
+            return bike;
+        } else {
+            throw new RuntimeException("Bike selected out of order!");
+        }
     }
 
     public String dockYourBike(Bike bikeDocked)
