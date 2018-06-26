@@ -9,7 +9,7 @@ public class AppTest
 {
 
     @Test
-    public void testApp()
+   void testApp()
     {
         assertThat("true", true );
     }

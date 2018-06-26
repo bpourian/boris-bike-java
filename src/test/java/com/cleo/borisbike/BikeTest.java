@@ -27,7 +27,7 @@ class BikeTest
     @Test
     void BikeToBeWorking()
     {
-        assertEquals(bike.getWorking(), true);
+        assertEquals(true, bike.getWorking());
     }
 
     @Test
