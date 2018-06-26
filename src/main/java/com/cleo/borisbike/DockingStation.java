@@ -5,7 +5,6 @@ import java.util.ArrayList;
 public class DockingStation
 {
     static final int DOCKING_LENGTH = 20;
-
     private ArrayList <Bike> bikeList;
 
     public DockingStation()
@@ -19,9 +18,7 @@ public class DockingStation
 
         if (bike.getWorking() == true) {
             return bike;
-        } else {
-            throw new RuntimeException("Bike selected out of order!");
-        }
+        } else throw new RuntimeException("Bike selected out of order!");
     }
 
     public String dockYourBike(Bike bikeDocked)

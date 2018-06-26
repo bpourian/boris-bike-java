@@ -1,14 +1,14 @@
 package com.cleo.borisbike;
 
 /**
- * Hello world!
+ * Boris Bike
  *
  */
-public class App 
+public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        System.out.println( "Boris Bike" );
 
 
     }
