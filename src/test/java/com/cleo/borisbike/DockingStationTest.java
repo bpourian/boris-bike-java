@@ -24,7 +24,6 @@ public class DockingStationTest
     {
         dock = new DockingStation();
         MockitoAnnotations.initMocks(this);
-//        bikeMock.setWorking(true);
     }
 
 
