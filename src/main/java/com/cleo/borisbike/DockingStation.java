@@ -6,11 +6,11 @@ public class DockingStation
 {
     static final int DOCKING_LENGTH = 20;
 
-    ArrayList <Bike> bikeList;
+    private ArrayList <Bike> bikeList;
 
     public DockingStation()
     {
-        bikeList = new ArrayList<Bike>(DOCKING_LENGTH);
+        bikeList = new ArrayList<>(DOCKING_LENGTH);
     }
 
     public Object releaseBike()
@@ -24,9 +24,9 @@ public class DockingStation
         {
             throw new RuntimeException("Docking Station Full!");
         } else
-        {
-            this.bikeList.add(bikeDocked);
-            return "Bike Accepted";
-        }
+            {
+                this.bikeList.add(bikeDocked);
+                return "Bike Accepted";
+            }
     }
 }

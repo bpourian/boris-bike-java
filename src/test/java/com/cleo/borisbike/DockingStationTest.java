@@ -23,7 +23,7 @@ public class DockingStationTest
     }
 
     @Mock
-    Bike bikeMock;
+    private Bike bikeMock;
 
 
     @Test
@@ -47,9 +47,9 @@ public class DockingStationTest
     }
 
     @Test
-    void DockingStationToThrowsErrorIfMoreThanTwentyBikesAdded()
+    void DockingStationToThrowErrorIfMoreThanTwentyBikesAdded()
     {
-        for (int i = 0; i < 20 ; i++) {
+        for (int i = 0; i < DockingStation.DOCKING_LENGTH ; i++) {
             dock.dockYourBike(bikeMock);
         }
 
